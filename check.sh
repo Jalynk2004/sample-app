@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Đường dẫn ứng dụng
-APP_URL="http://127.0.0.1:5050"
+APP_URL="http://localhost:5050"
 
 # Gửi yêu cầu HTTP và lưu kết quả
 RESPONSE=$(curl "$APP_URL")
